@@ -17,8 +17,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>
 
 package main
 
-import "log"
+import "github.com/JK014/SequenceTimer/web"
 
 func main() {
-	log.Println("Hello World")
+	web.StartServer()
 }
